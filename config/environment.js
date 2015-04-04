@@ -7,6 +7,11 @@ module.exports = function(environment) {
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
+    sassOptions: {
+      includePaths: [
+        'bower_components/bootstrap-sass-official/assets/stylesheets'
+      ]
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
