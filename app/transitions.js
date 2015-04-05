@@ -6,11 +6,11 @@ export default function() {
   this.transition(
     this.fromRoute('login'),
     this.toRoute('index'),
-    this.use('login-to-app'),
+    this.use('login-to-app')
   );
 
   this.transition(
     this.toRoute('login'),
-    this.use('app-to-login'),
+    this.use('app-to-login')
   );
 }
